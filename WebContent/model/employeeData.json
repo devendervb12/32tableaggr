@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "Devender",
+    "dept" : "UI5",
+    "role" : "Trainer"
+  },
+  {
+    "name" : "Mahi",
+    "dept" : "SAP",
+    "role" : "Developer"
+  },{
+    "name" : "Mani",
+    "dept" : "SAP",
+    "role" : "Developer"
+  }
+
+]
