@@ -6,16 +6,16 @@
 	           <columns>
 	              <Column>
 	                 <header>
-	                     <Text text="Name"/>
+	                     <Text text="{m2>name}"/>
 	                 </header>
 	              </Column>
 	              <Column>
 	                 <header>
-	                     <Text text="Department"/>
+	                     <Text text="{m2>dept}"/>
 	                 </header>
 	              </Column>
 	              <Column>
-	                     <Text text="Role"/>
+	                     <Text text="{m2>role}"/>
 	              </Column>
 	           </columns>
 	           <items>

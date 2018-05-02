@@ -15,7 +15,12 @@ sap.ui.controller("zemptable.EmpList", {
 		
 		this.getView().byId("idTable").setModel(oModel);
 		
-		
+		sap.ui.localResources("i18n");
+		var oRModel = new sap.ui.model.resource.ResourceModel({
+			bundleName : "i18n.mySource"
+		});
+		//naming the model
+		this.getView().byId("idTable").setModel(oRModel, "m2");
 		
 	},
 
