@@ -6,11 +6,17 @@ sap.ui.controller("zemptable.EmpList", {
 * @memberOf zemptable.EmpList
 */
 	onInit: function() {
-          var oModel = new sap.ui.model.json.JSONModel();
-          oModel.loadData("model/employeeData.json");
-          
-          this.getView().setModel(oModel);
-          
+          /*var oModel = new sap.ui.model.json.JSONModel();
+          oModel.loadData("model/employeeData.json");       
+          this.getView().setModel(oModel);   */
+		
+		var oModel = new sap.ui.model.xml.XMLModel();
+		oModel.loadData("model/employeeData.xml");
+		
+		this.getView().byId("idTable").setModel(oModel);
+		
+		
+		
 	},
 
 /**

@@ -2,7 +2,7 @@
 		controllerName="zemptable.EmpList" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Title">
 		<content>
-	        <Table items="{/}">
+	        <Table items="{/element}" id="idTable">
 	           <columns>
 	              <Column>
 	                 <header>
